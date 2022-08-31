@@ -263,8 +263,7 @@ to what we added to the `Game` model. Update the `User` class in
 
 ```rb
 class User < ActiveRecord::Base
-  has_many :reviews
-  has_many :games, through: :reviews
+  
 end
 ```
 
